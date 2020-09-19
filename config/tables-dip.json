@@ -1,0 +1,22 @@
+{
+  "tables":[
+
+
+    "pcba_dip_auxiliary",
+    "pcba_dip_auxiliary_tmp",
+    "pcba_dip_consumablescontrol",
+    "pcba_dip_consumablescontrol_tmp",
+    "pcba_dip_head",
+    "pcba_dip_head_tmp",
+    "pcba_dip_pcbfixturespec",
+    "pcba_dip_pcbfixturespec_tmp",
+    "pcba_dip_profilecontroltmp",
+    "pcba_dip_profilecontroltmp_tmp",
+    "pcba_dip_sprayerparameters",
+    "pcba_dip_sprayerparameters_tmp",
+    "pcba_dip_tinfurnaceparameters",
+    "pcba_dip_tinfurnaceparameters_tmp",
+    "pcba_dip_tinfurnacevariable",
+    "pcba_dip_tinfurnacevariable_tmp"
+    ]
+}

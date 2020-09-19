@@ -1,1 +1,9 @@
-com\wistron\com\App.class
+com\wistron\wcd\study\model\ClearTable.class
+com\wistron\wcd\study\util\JsonIO.class
+com\wistron\wcd\App.class
+com\wistron\wcd\study\AppClearTable.class
+com\wistron\wcd\study\model\User.class
+com\wistron\wcd\study\model\SingleTable.class
+com\wistron\wcd\study\UserApp.class
+com\wistron\wcd\utils\InfluxDBConnection.class
+com\wistron\wcd\study\model\TableName.class
