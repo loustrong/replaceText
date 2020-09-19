@@ -26,19 +26,20 @@ public class AppClearTable {
 //    private static SessionFactory sessionFactory;
         public static void main(String[] args) throws Exception {
             //加载bean
+            String[] configLocations = new String[]{"beans.xml"};
             ClassPathXmlApplicationContext appContext
-                    = new ClassPathXmlApplicationContext("classpath*:beans.xml");
+                    = new ClassPathXmlApplicationContext(configLocations);
             SessionFactory sessionFactory = (SessionFactory)appContext.getBean("sessionFactory");
             ComboPooledDataSource dataSource= (ComboPooledDataSource)appContext.getBean("dataSource");
-            Properties properties = new Properties();
-            // 使用InPutStream流读取properties文件
-            BufferedReader bufferedReader = new BufferedReader(new FileReader("config/datasource.properties"));
-            properties.load(bufferedReader);
-            // 获取key对应的value值
-            String driverClass = properties.getProperty("mysql.driverClassName");
-            String jdbcUrl = properties.getProperty("mysql.url");
-            String user = properties.getProperty("mysql.username");
-            String password = properties.getProperty("mysql.password");
+//            Properties properties = new Properties();
+//            // 使用InPutStream流读取properties文件
+//            BufferedReader bufferedReader = new BufferedReader(new FileReader("config/datasource.properties"));
+//            properties.load(bufferedReader);
+//            // 获取key对应的value值
+//            String driverClass = properties.getProperty("mysql.driverClassName");
+//            String jdbcUrl = properties.getProperty("mysql.url");
+//            String user = properties.getProperty("mysql.username");
+//            String password = properties.getProperty("mysql.password");
 
 //            dataSource.setDriverClass(driverClass);
 //            dataSource.setJdbcUrl(driverClass);

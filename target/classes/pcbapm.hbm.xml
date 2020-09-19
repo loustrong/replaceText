@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+
+<hibernate-mapping package="com.wistron.wcd.study.model.pcbapm">
+    <class name="UserSignticket" table="pcba_user_signticket">
+        <id name="ticketid" column="ticketid" type="java.lang.String">
+        </id>
+        <property name="ticketid" column="ticketid" insert="false" update="false" type="java.lang.String"
+                  length="30"/>
+        <property name="documentid" column="documentid" type="java.lang.String"
+                  length="30"/>
+        <property name="site" column="site" type="java.lang.String"
+                  length="30"/>
+        <property name="plant" column="plant" type="java.lang.String"
+                  length="30"/>
+        <property name="department" column="department" type="java.lang.String"
+                  length="10"/>
+        <property name="creator" column="creator" type="java.lang.String"
+                  length="20"/>
+        <property name="creatorcname" column="creatorcname" type="java.lang.String"
+                  length="40"/>
+        <property name="reviewer" column="reviewer" type="java.lang.String"
+                  length="40"/>
+        <property name="reviewercname" column="reviewercname" type="java.lang.String"
+                  length="40"/>
+        <property name="approver" column="approver" type="java.lang.String"
+                  length="40"/>
+        <property name="approvercname" column="approvercname" type="java.lang.String"
+                  length="40"/>
+        <property name="signdate" column="signdate" type="java.lang.String"
+                  length="30"/>
+        <property name="mailto" column="mailto" type="java.lang.String"
+                  length="50"/>
+        <property name="mailtouserid" column="mailtouserid" type="java.lang.String"
+                  length="50"/>
+        <property name="mailcc" column="mailcc" type="java.lang.String"
+                  length="50"/>
+        <property name="mailcname" column="mailcname" type="java.lang.String"
+                  length="30"/>
+        <property name="stage" column="stage" type="java.lang.String"
+                  length="30"/>
+        <property name="mailename" column="mailename" type="java.lang.String"
+                  length="30"/>
+        <property name="createdate" column="createdate" type="java.lang.String"
+                  length="30"/>
+        <property name="status" column="status" type="java.lang.Integer"
+                  length="4"/>
+        <property name="reviewercomment" column="reviewercomment" type="java.lang.String"
+                  length="100"/>
+        <property name="approvercomment" column="approvercomment" type="java.lang.String"
+                  length="100"/>
+        <property name="version" column="version" type="java.lang.String"
+                  length="10"/>
+        <property name="rejectComment" column="rejectComment" type="java.lang.String"
+                  length="100"/>
+        <property name="updatedate" column="updatedate" type="java.lang.String"
+                  length="30"/>
+        <property name="page" column="page" type="java.lang.String"
+                  length="10"/>
+        <property name="releasereason" column="releasereason" type="java.lang.String"
+                  length="100"/>
+        <!--        <property name="name" column="name" type="java.lang.String"></property>-->
+        <!--        <property name="age" column="age"  type="java.lang.Integer"></property>-->
+    </class>
+
+</hibernate-mapping>

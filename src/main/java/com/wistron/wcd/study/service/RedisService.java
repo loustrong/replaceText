@@ -10,6 +10,7 @@ import org.springframework.data.redis.core.ZSetOperations;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
 
+import javax.annotation.Resource;
 import javax.management.RuntimeErrorException;
 import java.util.Collections;
 import java.util.List;
@@ -219,6 +220,23 @@ public class RedisService {
      * @return true 成功 false失败
      */
     public boolean hset(String key, String item, Object value){
+        try{
+            redisTemplate.opsForHash().put(key, item, value);
+            return true;
+        }catch(Exception e){
+            log.error("redis error", e);
+            return false;
+        }
+    }
+    /**
+     * 向一张hash表中放入数据,如果不存在将创建
+     *
+     * @param key   键
+     * @param item  项
+     * @param value 值
+     * @return true 成功 false失败
+     */
+    public boolean hsetInteger(String key, String item, int value){
         try{
             redisTemplate.opsForHash().put(key, item, value);
             return true;

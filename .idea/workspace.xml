@@ -2,10 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b725756-5399-47a2-b3ce-33611da66590" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wistron/wcd/study/PcbapmApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wistron/wcd/study/PcbapmSinkToRedisApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wistron/wcd/study/model/pcbapm/PcbaMachineParameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wistron/wcd/study/model/pcbapm/UserSignticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wistron/wcd/study/model/pcbapm/UserSignticketAnno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wistron/wcd/study/service/PcbapmSinkToRedis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/beans-pcba.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pcbapm.hbm.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasource.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/datasource.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/datasource.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/datasource.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datasource.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wistron/wcd/study/AppClearTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wistron/wcd/study/AppClearTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wistron/wcd/study/service/RedisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wistron/wcd/study/service/RedisService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/datasource.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-redis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-redis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wistron/wcd/study/service/RedisServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wistron/wcd/study/service/RedisServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wistron/wcd/study/AppClearTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wistron/wcd/study/AppClearTable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wistron/wcd/study/service/RedisService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wistron/wcd/study/service/RedisService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datasource.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring-redis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring-redis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/original-textReplace-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-textReplace-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/wistron/wcd/study/service/RedisServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/textReplace-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/textReplace-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,9 +51,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="spring-beans.schema" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -63,7 +90,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/wistron/com/study" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -74,14 +101,18 @@
       <recent name="com.wistron.wcd.study.util" />
       <recent name="com.wistron.com.study.util" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.wistron.wcd.study" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\GitHub\replaceText\src\main\resources" />
       <recent name="D:\GitHub\replaceText" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub\replaceText\src\main\resources" />
       <recent name="D:\GitHub\replaceText" />
     </key>
   </component>
@@ -97,7 +128,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AppClearTable">
+  <component name="RunManager" selected="Application.PcbapmSinkToRedisApp">
     <configuration name="AppClearTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wistron.wcd.study.AppClearTable" />
       <module name="textReplace" />
@@ -111,34 +142,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonIOTest.getClearTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PcbapmApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wistron.wcd.study.PcbapmApp" />
       <module name="textReplace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wistron.wcd.study.util.*" />
+          <option name="PATTERN" value="com.wistron.wcd.study.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.wistron.wcd.study.util" />
-      <option name="MAIN_CLASS_NAME" value="com.wistron.wcd.study.util.JsonIOTest" />
-      <option name="METHOD_NAME" value="getClearTable" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonIOTest.getTableNames" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PcbapmSinkToRedisApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wistron.wcd.study.PcbapmSinkToRedisApp" />
       <module name="textReplace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wistron.wcd.study.util.*" />
+          <option name="PATTERN" value="com.wistron.wcd.study.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.wistron.wcd.study.util" />
-      <option name="MAIN_CLASS_NAME" value="com.wistron.wcd.study.util.JsonIOTest" />
-      <option name="METHOD_NAME" value="getTableNames" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -177,11 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PcbapmSinkToRedisApp" />
         <item itemvalue="Application.AppClearTable" />
+        <item itemvalue="Application.PcbapmApp" />
         <item itemvalue="JUnit.RedisServiceTest.get" />
         <item itemvalue="JUnit.RedisServiceTest.set" />
-        <item itemvalue="JUnit.JsonIOTest.getClearTable" />
-        <item itemvalue="JUnit.JsonIOTest.getTableNames" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +228,8 @@
       <workItem from="1600344436995" duration="20964000" />
       <workItem from="1600401764652" duration="4811000" />
       <workItem from="1600415887201" duration="11112000" />
-      <workItem from="1600476733832" duration="3349000" />
+      <workItem from="1600476733832" duration="26349000" />
+      <workItem from="1600512579904" duration="7678000" />
     </task>
     <servers />
   </component>

@@ -16,8 +16,11 @@
         <property name="order" value="1" />
         <property name="ignoreUnresolvablePlaceholders" value="true" />
         <property name="locations">
+<!--            <list>-->
+<!--                <value>classpath:redis.properties</value>-->
+<!--            </list>-->
             <list>
-                <value>classpath:redis.properties</value>
+                <value>file:config/redis.properties</value>
             </list>
         </property>
     </bean>
@@ -37,8 +40,7 @@
     <!-- Activates scanning of @Autowired -->
     <context:annotation-config/>
 
-    <!-- Activates scanning of @Service -->
-    <context:component-scan base-package="com.wistron.wcd.study"/>
+
     <!-- Spring-redis连接池管理工厂 -->
     <bean id="jedisConnectionFactory" class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory">
         <!-- IP地址 -->
@@ -63,6 +65,13 @@
         </property>
         <property name="hashKeySerializer">
             <bean class="org.springframework.data.redis.serializer.StringRedisSerializer" />
+        </property>
+
+        <property name="valueSerializer">
+            <bean class="org.springframework.data.redis.serializer.StringRedisSerializer"/>
+        </property>
+        <property name="hashValueSerializer">
+            <bean class="org.springframework.data.redis.serializer.StringRedisSerializer"/>
         </property>
     </bean>
 

@@ -21,7 +21,7 @@
               <transformers>
                 <transformer>
                   <manifestEntries>
-                    <Main-Class>com.wistron.wcd.study.AppClearTable</Main-Class>
+                    <Main-Class>com.wistron.wcd.study.PcbapmSinkToRedisApp</Main-Class>
                   </manifestEntries>
                 </transformer>
                 <transformer>
